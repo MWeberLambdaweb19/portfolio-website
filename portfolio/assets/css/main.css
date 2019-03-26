@@ -2384,7 +2384,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 5px;
+		border-radius: 0px;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -3353,7 +3353,7 @@ input, select, textarea {
 			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
 			-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
 			-ms-transition: opacity 2s ease, -ms-transform 1s ease;
-			transition: opacity 2s ease, transform 1s ease;
+			transition: opacity 2s ease, transform 2s ease;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
